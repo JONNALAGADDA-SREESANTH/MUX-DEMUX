@@ -1,0 +1,21 @@
+function [a0,a1,a2,a3,a4,a5,a6,a7]=onetoeightdemux(in,sel0,sel1,sel2)
+[x1,x2]=onetotwodemux(in,sel2);
+[d0,d1,d2,d3]=onetofourdemux(x1,sel1,sel0);
+[d4,d5,d6,d7]=onetofourdemux(x2,sel1,sel0);
+disp("a0")
+disp(a0)
+disp("a1")
+disp(a1)
+disp("a2")
+disp(a2)
+disp("a3")
+disp(a3)
+disp("a4")
+disp(a4)
+disp("a5")
+disp(a5)
+disp("a6")
+disp(a6)
+disp("a7")
+disp(a7)
+end 
